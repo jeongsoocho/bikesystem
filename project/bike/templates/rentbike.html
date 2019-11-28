@@ -1,0 +1,11 @@
+{{커플자전거}}
+{{일반자전거}}
+{{어린이자전거}}
+{{User.user_id}}
+
+{% for item in BBike %}
+    {{item.num}} {# starting index 1 #}
+    {{item.password}} {# starting index 0 #}
+
+    {# do your stuff #}
+{% endfor %}
